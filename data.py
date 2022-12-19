@@ -1,6 +1,6 @@
 hotel_info = {
 
-    'city': {
+   
         'Delhi': {
             'Business': ['Atliq Palace','Atliq City'],
             'Luxury':['Atliq Grands','Atliq Blu','Atliq Bay']
@@ -18,5 +18,4 @@ hotel_info = {
             'Luxury':['Atliq Grands','Atliq Blu','Atliq Bay','Atliq Exotica']
         },
 
-    },
 }
