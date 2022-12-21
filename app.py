@@ -3,7 +3,6 @@ from data import hotel_info
 from datetime import datetime,date
 import numpy as np
 import pickle
-import emoji
 import warnings #Supressing version related warings
 warnings.filterwarnings("ignore")
 
@@ -163,9 +162,9 @@ if __name__ == '__main__':
     )
 
         if result == 0 or result == 1 :
-            st.write("Room Booking was done successfully({}) and Costumer will expected to Check out {}.".format(emoji.emojize(':white_check_mark:'),emoji.emojize(':innocent:')))
+            st.write("Room Booking was done successfully 😊 and Costumer will expected to Check out 😇.")
         else:
-            st.write("Room Booking was done successfully({}) and Costumer will expected to Cancel, Follow Up Required.. {}.".format(emoji.emojize(':white_check_mark:'),emoji.emojize(':disappointed:')))
+            st.write("Room Booking was done successfully 😊 and Costumer will expected to Cancel, Follow Up Required...🥺")
         
 
 
