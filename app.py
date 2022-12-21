@@ -107,7 +107,7 @@ def book_room(category,booking_date,city,hotel,platform,room_class,check_in_date
 
 if __name__ == '__main__':
     st.header("Customer Status Predictor")
-    st.write("The accuracy of the model is approximate 63\%-67\%. Most of the time it will predict as checked out.")
+    st.write("The accuracy of the model is approximately 65%")
     category = st.selectbox(
             label="Hotel Category (Luxury/Business)",
             options=['Luxury','Business']
